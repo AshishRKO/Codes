@@ -34,6 +34,7 @@ public class ListCycle
 		
 		Node slow=start,fast=start;
 		
+		// if slow and past pointer ever meet then list has a cycle 
 		while(fast!=null && fast.next!=null)
 		{
 			slow=slow.next;
@@ -47,6 +48,7 @@ public class ListCycle
 			}
 			
 			// Flag=true means that there is a cycle in the List
+			// If the list has cycle then count till the next cycle
 			if(flag==true)
 				count++;
 			
@@ -54,7 +56,45 @@ public class ListCycle
 		return count;
 	}
 	
-	
+	public static Node LoopPoint(Node start)
+	{
+		if(start==null || start.next==null)
+			return start;
+		
+		Node slow=start;
+		Node fast=start;
+		boolean isCycle=false;
+		
+		while(slow!=null && fast!=null)
+		{
+			slow=slow.next;
+			if(fast.next==null)
+			    return null;
+			fast=fast.next.next;
+			
+			if(slow==fast)
+			{
+				//Cycle exists
+				isCycle=true;
+				break;
+			}
+		}
+			
+		if(isCycle==false)
+				return null;
+		else
+		{
+			// If the cycle exists then take the slow pointer to the beginning of the list
+			slow=start;
+			while(slow!=fast)
+			{
+				slow=slow.next;
+				fast=fast.next;
+			}
+		}
+			// The meeting point of slow and fast will be the beginning of the loop in the list.
+		return slow;   
+	}
 	
 	public static void main(String[] args) 
 	{
@@ -65,15 +105,17 @@ public class ListCycle
 		A.next.next.next=new Node(4);
 		A.next.next.next.next=new Node(5);
 		A.next.next.next.next.next=new Node(6);
-		A.next.next.next.next.next.next=A.next.next;
+		//A.next.next.next.next.next.next=A.next.next.next;
 		
 		if(hasCycle(A)==true)
 			System.out.println("Linked List has cycle");
 		else
 			System.out.println("Linked List does not have any cycle");
 		
-		
 		System.out.println("Length of Cycle= "+countCycleLength(A));
+		
+		if(LoopPoint(A)!=null)
+			System.out.println("Begining Node of Cycle= "+LoopPoint(A).value);
 		
 	}
 }
