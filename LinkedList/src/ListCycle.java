@@ -1,4 +1,21 @@
 /* Given a linked list, determine if it has a cycle in it */
+/* Uncomment this if you are using this outside the package where Node.java is not available
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}
+*/
 
 public class ListCycle 
 {

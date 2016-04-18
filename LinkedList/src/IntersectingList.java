@@ -1,3 +1,21 @@
+/* Intersection of Two Linked Lists */
+/* Uncomment this if you are using this outside the package where Node.java is not available
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}
+*/
 
 public class IntersectingList 
 {
@@ -43,6 +61,7 @@ public class IntersectingList
     
 	public static void main(String[] args)
 	{
+		// A and B are two Linked List that intersects 
 		Node A=new Node(1);
 		A.next=new Node(2);
 		A.next.next=new Node(3);
