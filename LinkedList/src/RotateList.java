@@ -24,7 +24,7 @@ public class RotateList
 	    Node temp=start;
 	    while(temp!=null)
 	    {
-	        System.out.print(temp.value+" ");
+	        System.out.print(temp.data+" ");
 	        temp=temp.next;
 	    }
 	    System.out.println();

@@ -1,4 +1,4 @@
-/* Problem- Sort the Linked List with values 0,1,2 */
+/* Problem- Sort the Linked List with datas 0,1,2 */
 
 /* Uncomment this if you are using this outside the package where Node.java is not available
 class Node
@@ -25,7 +25,7 @@ public class SORT012
 	    Node temp=start;
 	    while(temp!=null)
 	    {
-	        System.out.print(temp.value+" ");
+	        System.out.print(temp.data+" ");
 	        temp=temp.next;
 	    }
 	}
@@ -44,15 +44,15 @@ public class SORT012
 		    
 		    while(temp!=null)
 		    {
-		        if(temp.value==0)
+		        if(temp.data==0)
 		        {
 		            zero++;
 		        }
-		        else if(temp.value==1)
+		        else if(temp.data==1)
 		        {
 		            one++;
 		        }
-		        else if(temp.value==2)
+		        else if(temp.data==2)
 		        {
 		            two++;
 		        }
@@ -64,17 +64,17 @@ public class SORT012
 		    {
 		        if(zero!=0)
 		        {
-		            temp.value=0;
+		            temp.data=0;
 		            zero--;
 		        }
 		        else if(one!=0)
 		        {
-		            temp.value=1;
+		            temp.data=1;
 		            one--;
 		        }
 		        else if(two!=0)
 		        {
-		            temp.value=2;
+		            temp.data=2;
 		            two--;
 		        }
 		        temp=temp.next;

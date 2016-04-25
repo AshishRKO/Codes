@@ -24,7 +24,7 @@ public class MergeTwoList
 	    Node temp=start;
 	    while(temp!=null)
 	    {
-	        System.out.print(temp.value+" ");
+	        System.out.print(temp.data+" ");
 	        temp=temp.next;
 	    }
 	}
@@ -41,7 +41,7 @@ public class MergeTwoList
 		Node res=dummy;
 		while(temp1!=null && temp2!=null)
 		{
-			if(temp1.value<=temp2.value)
+			if(temp1.data<=temp2.data)
 			{
 				res.next=temp1;
 				temp1=temp1.next;

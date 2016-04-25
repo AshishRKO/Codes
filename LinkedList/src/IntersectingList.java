@@ -24,7 +24,7 @@ public class IntersectingList
 	    Node temp=start;
 	    while(temp!=null)
 	    {
-	        System.out.print(temp.value+" ");
+	        System.out.print(temp.data+" ");
 	        temp=temp.next;
 	    }
 	    System.out.println();
@@ -79,7 +79,7 @@ public class IntersectingList
 		Node res= getIntersectionNode(A, B);
 		if(res!=null)
 		{
-			System.out.println("INTERSECTION POINT = "+res.value);
+			System.out.println("INTERSECTION POINT = "+res.data);
 		}
 		else
 			System.out.println("List do not intesect each other");

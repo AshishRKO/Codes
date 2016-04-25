@@ -132,7 +132,7 @@ public class ListCycle
 		System.out.println("Length of Cycle= "+countCycleLength(A));
 		
 		if(LoopPoint(A)!=null)
-			System.out.println("Begining Node of Cycle= "+LoopPoint(A).value);
+			System.out.println("Begining Node of Cycle= "+LoopPoint(A).data);
 		
 	}
 }
