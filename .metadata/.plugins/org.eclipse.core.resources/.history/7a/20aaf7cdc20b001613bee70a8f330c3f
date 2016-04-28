@@ -1,0 +1,76 @@
+/*
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}*/
+
+
+
+public class OddEven 
+{
+
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	}
+	
+	public static Node OddEvenList(Node start)
+	{
+		if(start==null)
+			return null;
+
+		Node temp=start;
+		Node res=new Node(0);
+		Node even=res;
+		//Node odd=new Node(0);
+
+		int i=0;
+		while(temp!=null)
+		{
+			if(i%2==0)
+			{
+				even.next=temp;
+				even=even.next;
+			}
+			// else
+			// {
+			// 	odd.next=temp;
+			// 	odd=odd.next;
+			// }
+			temp=temp.next;
+			i++;
+		}
+		return res.next;
+
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Node A=new Node(1);
+		A.next=new Node(2);
+		A.next.next=new Node(3);
+		A.next.next.next=new Node(4);
+		A.next.next.next.next=new Node(5);
+		A.next.next.next.next.next=new Node(6);
+
+		System.out.println(OddEvenList(A));
+
+	}
+
+}

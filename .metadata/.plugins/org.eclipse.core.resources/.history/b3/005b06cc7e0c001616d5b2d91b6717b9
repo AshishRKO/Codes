@@ -1,0 +1,82 @@
+/*
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}*/
+
+public class DeleteVal 
+{
+
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+
+
+	public static Node delete(Node start, int val)
+	{
+		if(start==null)
+			return null;
+
+		Node curr=start;
+		Node prev=null;
+		while(curr!=null)
+		{
+
+			if(curr.data==val)
+			{
+				if(prev==null)
+				{
+					start=start.next;
+				}
+				else
+				{
+					prev.next=curr.next;
+				}
+			}
+			else
+			{
+				prev=prev.next;
+			}
+
+			curr=curr.next;
+
+		}
+		return start;
+
+	}
+
+	public static void main(String[] args)
+	{
+		// TODO Auto-generated method stub
+		Node A=new Node(1);
+		A.next=new Node(2);
+		A.next.next=new Node(3);
+		A.next.next.next=new Node(4);
+		A.next.next.next.next=new Node(5);
+		A.next.next.next.next.next=new Node(6);
+		
+		print(A);
+
+		print(delete(A,1));
+
+	}
+
+}

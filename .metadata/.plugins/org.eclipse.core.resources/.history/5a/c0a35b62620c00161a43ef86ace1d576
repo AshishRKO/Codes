@@ -1,0 +1,116 @@
+/*
+In a linked list, group all odd nodes together followed by the ODDINF nodes. Please note here we are talking about the node number and not the value in the nodes.
+
+Given 1->2->3->4->5->NULL,
+return 1->3->5->2->4->NULL.
+*/
+/* Uncomment this if you are using this outside the package where Node.java is not available
+/*
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}*/
+
+
+
+public class OddEven 
+{
+
+	// Function to print the List
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+	
+	public static Node OddEvenList(Node start)
+	{
+		if(start==null)
+			return null;
+
+		Node temp=start;
+		Node res=new Node(0);
+		Node ODDINF=res;
+
+		Node result=new Node(-1);
+		Node odd=result;
+
+		int i=0;
+		while(temp!=null)
+		{
+			if(i%2==0)
+			{
+				ODDINF.next=temp;
+				ODDINF=ODDINF.next;
+			}
+			else
+			{
+			 	odd.next=temp;
+			 	odd=odd.next;
+			}
+
+			temp=temp.next;
+			i++;
+		}
+		odd.next=null;
+		ODDINF.next=result.next;
+		return res.next;
+
+	}
+
+	// Another good solution
+	public static Node OddEvenList2(Node start)
+	{
+		if(start==null)
+			return null;
+
+		Node odd=start;
+		Node ODDINF=start.next;
+		Node ODDINFhead=ODDINF;
+
+		while(odd.next!=null && ODDINF.next!=null)
+		{
+			odd.next=ODDINF.next;
+			odd=odd.next;
+
+			ODDINF.next=odd.next;
+			ODDINF=ODDINF.next;
+		}
+
+		odd.next=ODDINFhead;
+		return start;
+
+	}
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Node A=new Node(1);
+		A.next=new Node(2);
+		A.next.next=new Node(3);
+		A.next.next.next=new Node(4);
+		A.next.next.next.next=new Node(5);
+		//A.next.next.next.next.next=new Node(6);
+		
+		print(A);
+
+		print(OddEvenList(A));
+		print(OddEvenList2(A));
+	}
+
+}
