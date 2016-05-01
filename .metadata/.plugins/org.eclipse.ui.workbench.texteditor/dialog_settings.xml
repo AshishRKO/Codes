@@ -3,28 +3,29 @@
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
 		<item value="322" key="DIALOG_WIDTH"/>
 		<item value="85" key="DIALOG_Y_ORIGIN"/>
-		<item value="857" key="DIALOG_X_ORIGIN"/>
 		<item value="425" key="DIALOG_HEIGHT"/>
+		<item value="857" key="DIALOG_X_ORIGIN"/>
 		<item value="1|Ubuntu|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
 		<item value="true" key="wrap"/>
-		<item value="true" key="casesensitive"/>
 		<item value="false" key="isRegEx"/>
+		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="even" key="selection"/>
+		<item value="Node" key="selection"/>
 		<list key="findhistory">
+			<item value="ListNode"/>
 			<item value="EVENING"/>
 			<item value="ODDINF"/>
 			<item value="odd"/>
 			<item value="even"/>
-			<item value="ListNode"/>
 			<item value="val"/>
 			<item value="data"/>
 			<item value="Node5"/>
 		</list>
 		<list key="replacehistory">
+			<item value="Node"/>
 			<item value="even"/>
 			<item value="odd"/>
 			<item value="EVENING"/>
@@ -32,7 +33,6 @@
 			<item value="ODDING"/>
 			<item value="EVE"/>
 			<item value="odding"/>
-			<item value="Node"/>
 		</list>
 	</section>
 </section>

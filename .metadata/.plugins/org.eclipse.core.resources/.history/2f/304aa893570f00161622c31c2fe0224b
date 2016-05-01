@@ -1,0 +1,60 @@
+
+public class InsertionSort 
+{
+
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+
+
+	public static Node sort(Node start)
+	{
+		if(start==null)
+			return null;
+
+		Node fakeHead=new Node(0);
+		Node prev=fakeHead;
+		Node curr=start;
+
+		while(curr!=null)
+		{
+			prev=fakeHead;
+			while(prev!=null && prev.next.data<curr.next.data)
+			{
+				prev=prev.next;
+			}
+
+			Node next=curr.next;
+			curr.next=prev.next;
+			prev.next=curr;
+			curr=next;
+		}
+
+		return start;
+
+	} 
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		Node A=new Node(100);
+		A.next=new Node(2);
+		A.next.next=new Node(33);
+		A.next.next.next=new Node(4);
+		A.next.next.next.next=new Node(15);
+		A.next.next.next.next.next=new Node(6);
+		
+		print(A);
+
+		print(sort(A));
+
+	}
+
+}

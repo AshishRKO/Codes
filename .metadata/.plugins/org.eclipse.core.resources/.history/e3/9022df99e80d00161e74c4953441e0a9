@@ -1,0 +1,85 @@
+/*
+Given a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list.
+
+For example,
+Given 1->2->3->3->4->4->5, return 1->2->5.
+Given 1->1->1->2->3, return 2->3.
+*/
+
+/*
+class Node
+{
+	int data;
+	Node next;
+	public Node()
+	{
+		this.next=null;
+	}
+	
+	public Node(int data)
+	{
+		this.data=data;
+		this.next=null;
+	}
+}*/
+
+public class DeleteRepeated 
+{
+	// Function to print a Linked List
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+
+	public static Node delete(Node start)
+	{
+		if(start==null)
+			return null;
+
+		Node prev=null;
+		Node curr=start;
+		Node next;
+		while(curr!=null)
+		{
+			next=curr.next;
+
+			if(next!=null && curr.data==next.data)
+			{
+				while(curr.data!=next.data)
+				{
+					next=curr.next;
+					curr=next;
+				}
+				prev.next=next;
+			}
+			prev=curr;
+			curr=next;
+		}
+		return start;
+	}
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		Node A=new Node(1);
+		A.next=new Node(2);
+		A.next.next=new Node(3);
+		A.next.next.next=new Node(3);
+		A.next.next.next.next=new Node(5);
+		A.next.next.next.next.next=new Node(6);
+		
+		print(A);
+
+		print(delete(A));
+
+
+	}
+
+}

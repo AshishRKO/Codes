@@ -1,0 +1,65 @@
+/*
+Given a linked list and a value x, partition it such that all nodes less than x come before nodes greater than or equal to x.
+
+You should preserve the original relative order of the nodes in each of the two partitions.
+
+For example,
+Given 1->4->3->2->5->2 and x = 3,
+return 1->2->2->4->3->5.
+*/
+
+public class PartitionList 
+{
+
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+
+	
+	public static Node Partition(Node start, int x)
+	{
+		if(start==null)
+			return null;
+
+		Node dummy=new Node(0);	
+		Node temp=dummy;
+		Node curr=start;
+
+		while(curr!=null)
+		{
+			if(curr.data<x)
+			{
+				temp.next=curr;
+				temp=temp.next;
+			}
+			curr=curr.next;
+		}
+		print(temp);
+		return start;
+	}
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Node A=new Node(1);
+		A.next=new Node(4);
+		A.next.next=new Node(3);
+		A.next.next.next=new Node(2);
+		A.next.next.next.next=new Node(5);
+		A.next.next.next.next.next=new Node(2);
+		
+		System.out.println("Original Linked List");
+		print(A);
+
+		System.out.println("After InsertionSort");
+		print(Partition(A));
+
+	}
+
+}

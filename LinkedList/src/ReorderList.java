@@ -5,6 +5,7 @@ reorder it to: L0→Ln→L1→Ln-1→L2→Ln-2→…
 For example,
 Given {1,2,3,4}, reorder it to {1,4,2,3}.
 1,2,3,4,5       1,5,2,4,3
+1,2,3,4,5,6       1,6,2,5,3,4
 1 2 5 4 3       1 5 2 4 
 */
 
@@ -75,24 +76,6 @@ public class ReorderList
             mid.next=prev;
             nullable.next=null;
 
-    		print(head);
-    		System.out.println("P1.data= "+p1.data);
-    		System.out.println("mid.data= "+mid.data);
-    		Node temp=head;
-    		Node tempNEXT;
-    		Node midNext;
-    		mid=mid.next;
-    		while(temp!=mid)
-    		{
-    			tempNEXT=temp.next;
-    			temp.next=mid;
-    			midNext=mid.next;
-    			mid.next=tempNEXT;
-    			temp=tempNEXT;
-    			mid=midNext;
-    		}
-
-    		/*
     		p1=head;
     		p2=mid.next;
     		while(p1!=mid)
@@ -103,8 +86,6 @@ public class ReorderList
     			p1=p2.next;
     			p2=mid.next;
     		}
-			*/
-
             return head;
 	}
 

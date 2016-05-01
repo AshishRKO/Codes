@@ -1,0 +1,102 @@
+
+public class MergeSort 
+{
+
+	public static void print(Node start)
+	{
+	    Node temp=start;
+	    while(temp!=null)
+	    {
+	        System.out.print(temp.data+" ");
+	        temp=temp.next;
+	    }
+	    System.out.println();
+	}
+
+	
+	public static Node merge(Node A, Node B)
+	{
+		if(A==null)
+			return null;
+		if(B==null)
+			return null;
+		Node temp1=A;
+		Node temp2=B;
+		Node dummy=new Node(0);
+		Node res=dummy;
+		while(temp1!=null && temp2!=null)
+		{
+			if(temp1.data<=temp2.data)
+			{
+				res.next=temp1;
+				temp1=temp1.next;
+			}
+			else
+			{
+				res.next=temp2;	
+				temp2=temp2.next;
+			}
+			res=res.next;
+		}
+	
+		if(temp1!=null)
+		{
+			res.next=temp1;
+		}
+		if(temp2!=null)
+		{
+			res.next=temp2;
+		}
+		//System.out.println("NOTHING");
+		print(dummy.next);
+		return dummy.next;
+	}
+	
+	public static Node mergeSort(Node start)
+	{
+		if(start==null || start.next==null)
+			return null;
+
+		Node slow=start;
+		Node fast=start;
+		Node prev=null;
+
+		while(fast!=null && fast.next!=null)
+		{
+			prev=slow;
+			slow=slow.next;
+			fast=fast.next.next;
+		}
+
+		prev.next=null;
+
+		Node first=mergeSort(start);
+		Node second=mergeSort(slow);
+		print(first);
+		print(second);
+
+
+		Node res=merge(first,second);
+		return res;
+	}
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+		Node A=new Node(46);
+		A.next=new Node(2);
+		A.next.next=new Node(2);
+		A.next.next.next=new Node(2);
+		A.next.next.next.next=new Node(5);
+		A.next.next.next.next.next=new Node(5);
+		print(A);
+		print(mergeSort(A));
+
+	}
+
+}
+
+
+
+

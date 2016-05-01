@@ -1,0 +1,53 @@
+
+public class MergeSort 
+{
+	public Node mergeTwoLists(Node l1, Node l2)
+    {
+        if(l1==null && l2==null)
+            return null;
+            
+        if(l1==null)
+            return l2;
+            
+        if(l2==null)
+            return l1;
+            
+        Node temp1=l1;
+        Node temp2=l2;
+        
+        Node dummy=new Node(0);
+        Node res=dummy;
+        
+        while(temp1!=null && temp2!=null)
+        {
+            if(temp1.val<temp2.val)
+            {
+                res.next=temp1;
+                temp1=temp1.next;
+            }
+            else
+            {
+                res.next=temp2;
+                temp2=temp2.next;
+            }
+            res=res.next;
+        }
+        
+        if(l1!=null)
+        {
+            res.next=l1;
+        }
+        else
+        {
+            res.next=l2;
+        }
+            
+        return dummy.next;
+    }
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+
+	}
+
+}
