@@ -1,0 +1,40 @@
+import java.util.LinkedList;
+import java.util.Queue;
+
+public class LevelOrderTraversal 
+{
+	public static void levelOrder(TreeNode root)
+	{
+		if(root==null)
+			return ;
+		Queue<TreeNode> q=new LinkedList<TreeNode>();
+		while(root!=null)
+		{
+			System.out.print(root.data+" ");
+			if(root.left!=null)
+			{
+				q.add(root.left);
+			}
+			
+			if(root.right!=null)
+			{
+				q.add(root.right);
+			}
+			root = q.poll();
+		}
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		TreeNode root=new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		root.left.left=new TreeNode(4);
+		root.right.right=new TreeNode(5);
+
+		levelOrder(root);
+
+	}
+
+}

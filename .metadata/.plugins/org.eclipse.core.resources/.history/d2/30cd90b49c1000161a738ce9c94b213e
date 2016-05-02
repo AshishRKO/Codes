@@ -1,0 +1,50 @@
+
+public class MorrisPreorder 
+{
+	public static void inorder(TreeNode root)
+	{
+		if(root==null)
+			return ;
+		
+		TreeNode curr=root;
+		while(curr!=null)
+		{
+			// If left node is null print the node and go to right
+			if(curr.left==null)
+			{
+				System.out.print(curr.data+" ");
+				curr=curr.right;
+			}
+			else
+			{
+				// Find Inorder predecessor
+				TreeNode pred=curr.left;
+				while(pred.right!=curr && pred.right!=null)
+				{
+					pred=pred.right;
+				}
+				
+				if(pred.right==null)
+				{
+					// Make a link from predecessor to current
+					pred.right=curr;
+					curr=curr.left;
+				}
+				else if(pred.right==curr)
+				{
+					// left subtree is already visited. Go to right
+					System.out.print(curr.data+" ");
+					pred.right=null;
+					curr=curr.right;
+				}
+			}
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

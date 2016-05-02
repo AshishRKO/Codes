@@ -1,0 +1,45 @@
+
+public class MorrisInorder 
+{
+	public static void inorder(TreeNode root)
+	{
+		if(root==null)
+			return ;
+		
+		TreeNode curr=root;
+		while(curr!=null)
+		{
+			if(curr.left==null)
+			{
+				System.out.print(curr.data+" ");
+				curr=curr.right;
+			}
+			else
+			{
+				// Find Inorder predecessor
+				TreeNode pred=curr.left;
+				while(pred.right!=curr && pred.right!=null)
+				{
+					pred=pred.right;
+				}
+				
+				if(pred.right==null)
+				{
+					pred.right=curr;
+				}
+				if(pred.right==curr)
+				{
+					System.out.print(pred.data+" ");
+					pred.right=null;
+				}
+			}
+		}
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

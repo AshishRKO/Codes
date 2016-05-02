@@ -1,0 +1,32 @@
+
+public class InorderPredecessor 
+{
+	public static void predecessor(TreeNode root)
+	{
+		if(root==null)
+			return ;
+		if(root.left!=null)
+			root=root.left;
+		System.out.println(root.data);
+		System.out.println(root.left.data);
+		
+		while(root.right!=null)
+			root=root.right;
+		
+		System.out.println(root.data);
+		
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		TreeNode root=new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		root.left.left=new TreeNode(4);
+		root.left.right=new TreeNode(5);
+		predecessor(root.left);
+
+	}
+
+}
