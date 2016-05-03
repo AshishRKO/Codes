@@ -1,0 +1,48 @@
+import java.util.ArrayList;
+
+public class MaxWidth 
+{
+	public static int getMaxWidth(TreeNode root)
+	{
+		ArrayList<Integer> L=new ArrayList<Integer>();
+		
+		helper(root, L ,0);
+	}
+	
+	public static void helper(TreeNode root, ArrayList<Integer> L, int level)
+	{
+		if(root==null)
+			return ;
+		
+		L.add(level);
+		helper(root.left,L,level+1);
+		helper(root.right,L,level+1);
+	}
+	
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		TreeNode root = new TreeNode(1);
+		  root.left        = new TreeNode(2);
+		  root.right       = new TreeNode(3);
+		  root.left.left  = new TreeNode(4);
+		  root.left.right = new TreeNode(5);
+		  root.right.right = new TreeNode(8);
+		  root.right.right.left  = new TreeNode(6);
+		  root.right.right.right  = new TreeNode(7);
+		 
+		  /*
+		   Constructed bunary tree is:
+		          1
+		        /  \
+		       2    3
+		     /  \     \
+		    4   5     8
+		              /  \
+		             6   7
+		  */
+		  printf("Maximum width is %d \n", getMaxWidth(root));
+
+	}
+
+}
