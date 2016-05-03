@@ -1,0 +1,54 @@
+import java.util.HashMap;
+
+class RandomListNode
+{
+    int data;//Node data
+    RandomListNode next;
+	RandomListNode random;//Next and random reference
+ 
+    //Node constructor
+    public RandomListNode(int data)
+    {
+        this.data = data;
+        this.next = this.random = null;
+    }
+}
+
+public class CloneList 
+{
+
+    public static RandomListNode clone(RandomListNode start)
+    {
+        if(start==null)
+            return null;
+
+        RandomListNode curr=start;
+        RandomListNode copy=null;
+
+        HashMap<RandomListNode, RandomListNode> h=new HashMap<RandomListNode, RandomListNode>();
+        while(curr!=null)
+        {
+            copy=new RandomListNode(curr.data);
+            h.put(curr, copy);
+            curr=curr.next;
+        }
+
+        curr=start;
+
+        while(curr!=null)
+        {
+            copy.next=h.get(curr.next);
+            copy.random=h.get(curr.random);
+            curr=curr.next;
+        }
+
+        RandomListNode res=h.get(start);
+    }
+
+	public static void main(String[] args) 
+    {
+		// TODO Auto-generated method stub
+
+	}
+
+}
