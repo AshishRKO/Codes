@@ -1,0 +1,42 @@
+// Print all the ancestor of a binary tree node
+public class printAncestor 
+{
+	public static boolean ancestor(TreeNode root, int n)
+	{
+		if(root==null)
+		{
+			return false;
+		}
+
+		if(root.data==n)
+		{
+			return true;
+		}
+
+		 /* If target is present in either left or right subtree of this node,
+	     then print this node */
+		if( ancestor(root.left,n) || ancestor(root.right,n))
+		{
+			System.out.print(root.data+" ");
+			return true;
+		}
+
+		return false;
+
+	}
+
+	public static void main(String[] args) 
+	{
+		// TODO Auto-generated method stub
+		TreeNode root = new TreeNode(1);
+		  root.left        = new TreeNode(2);
+		  root.right       = new TreeNode(3);
+		  root.left.left  = new TreeNode(4);
+		  root.left.right = new TreeNode(5);
+		  root.left.left.left  = new TreeNode(7);
+		 
+		  ancestor(root, 7);
+
+	}
+
+}

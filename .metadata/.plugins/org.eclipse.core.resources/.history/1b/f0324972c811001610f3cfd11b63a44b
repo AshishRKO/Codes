@@ -4,6 +4,7 @@ import java.util.Stack;
 
 public class InorderPredecessor 
 {
+	// the maximum value in left subtree is predecessor
 	public static void predecessor(TreeNode root)
 	{
 		if(root==null)
@@ -16,22 +17,6 @@ public class InorderPredecessor
 		
 		System.out.println(root.data);
 		
-	}
-	
-	public static void successor(TreeNode root)
-	{
-		if(root==null)
-			return ;
-		
-		if(root.right!=null)
-			root=root.right;
-		
-		while(root.left!=null)
-		{
-			root=root.left;
-		}
-		
-		System.out.println("Successor= "+root.data);
 	}
 	
 	public static List<Integer> preorderTraversal(TreeNode root) 
@@ -57,22 +42,13 @@ public class InorderPredecessor
 	public static void main(String[] args) 
 	{
 		// TODO Auto-generated method stub
-		TreeNode root = new TreeNode(1);
-		  root.left        = new TreeNode(2);
-		  root.right       = new TreeNode(3);
-		  root.left.left  = new TreeNode(4);
-		  root.left.right = new TreeNode(5);
-		  root.right.left = new TreeNode(8);  
-		  /* Constructed binary tree is
-        1
-      /   \
-    2      3
-  /  \    /
-4     5  8 
-*/
-		 
+		TreeNode root=new TreeNode(1);
+		root.left=new TreeNode(2);
+		root.right=new TreeNode(3);
+		root.left.left=new TreeNode(4);
+		root.left.right=new TreeNode(5);
+		
 		predecessor(root);
-		successor(root);
 
 	}
 
