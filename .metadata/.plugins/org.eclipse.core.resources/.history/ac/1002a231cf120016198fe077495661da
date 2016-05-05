@@ -1,0 +1,66 @@
+class ListNode
+{
+	int data;
+	ListNode next;
+}
+
+public class SortedListToTree 
+{
+	public static int length(ListNode start)
+	{
+		if(start==null)
+			return 0;
+		
+		ListNode temp=start;
+		int c=0;
+		while(temp!=null)
+		{
+			c++;
+			temp=temp.next;
+		}
+		
+		return c;
+	}
+	
+	public static TreeNode sortedListToBST(ListNode start)
+	{
+	    /*Count the number of nodes in Linked List */
+	    int n = length(start);
+	 
+	    /* Construct BST */
+	    return sortedListToBSTRecur(start, n);
+	}
+	 
+	/* The main function that constructs balanced BST and returns root of it.
+	       head_ref -->  Pointer to pointer to head node of linked list
+	       n  --> No. of nodes in Linked List */
+	public static TreeNode sortedListToBSTRecur(ListNode start, int n)
+	{
+	    /* Base Case */
+	    if (n <= 0)
+	        return null;
+	 
+	    /* Recursively construct the left subtree */
+	    TreeNode left = sortedListToBSTRecur(start, n/2);
+	 
+	    /* Allocate memory for root, and link the above constructed left 
+	       subtree with root */
+	    TreeNode root = new TreeNode(start.data);
+	    root.left = left;
+	 
+	    /* Change head pointer of Linked List for parent recursive calls */
+	    start = start.next;
+	 
+	    /* Recursively construct the right subtree and link it with root 
+	      The number of nodes in right subtree  is total nodes - nodes in 
+	      left subtree - 1 (for root) which is n-n/2-1*/
+	    root.right = sortedListToBSTRecur(start, n-n/2-1);
+	 
+	    return root;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,29 @@
+class ListNode
+{
+	int data;
+	ListNode next;
+}
+
+public class SortedListToTree 
+{
+	public static int length(ListNode start)
+	{
+		if(start==null)
+			return 0;
+		
+		ListNode temp=start;
+		int c=0;
+		while(temp!=null)
+		{
+			c++;
+			temp=temp.next;
+		}
+		
+		return c;
+	}
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
