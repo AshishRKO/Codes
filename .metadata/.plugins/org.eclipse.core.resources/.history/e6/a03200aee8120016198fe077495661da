@@ -1,0 +1,48 @@
+class ListNode
+{
+	int data;
+	ListNode prev;
+	ListNode next;
+	
+	public ListNode(int data)
+	{
+		this.data=data;
+	}
+}
+
+
+public class SortedDLLToBST 
+{
+	public static int getLength(ListNode start)
+	{
+		ListNode temp=start;
+		int c=0;
+		while(temp!=null)
+		{
+			c++;
+			temp=temp.next;
+		}
+		return c;
+	}
+	
+	public static ListNode DLLToBST(ListNode start)
+	{
+		int n=getLength(start);
+		return helper(start,n);
+	}
+	
+	public static ListNode helper(ListNode start,int n)
+	{
+		if(n==0)
+			return null;
+		ListNode root=start;
+		root.left = helper(start.next,n/2);
+		
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
