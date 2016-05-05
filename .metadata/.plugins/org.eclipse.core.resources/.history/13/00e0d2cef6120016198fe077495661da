@@ -1,0 +1,64 @@
+import java.util.Stack;
+
+public class PairSum 
+{
+	public static boolean isPairPresent(TreeNode root)
+	{
+		if(root==null)
+			return false;
+		
+		Stack<TreeNode> s1=new Stack<TreeNode>();
+		Stack<TreeNode> s2=new Stack<TreeNode>();
+		TreeNode curr1 = root;
+		TreeNode curr2 = root;
+		
+		boolean done1=false;
+		boolean done2=false;
+		
+		int val1=0;
+		int val2=0;
+		while(true)
+		{
+			while(done1==false)
+			{
+				if(curr1!=null)
+				{
+					s1.push(curr1);
+					curr1=curr1.left;
+				}
+				else
+				{
+					if(s1.isEmpty())
+					{
+						curr1=s1.pop();
+						val1=curr1.data;
+						curr1=curr1.right;
+						
+					}
+					done1=true;
+				}
+			}
+		
+		
+			while(done2==false)
+			{
+				if(curr2!=null)
+				{
+					s2.push(curr2);
+					curr2=curr2.right;
+				}
+				else
+				{
+					curr2=s2.pop();
+					val2=curr2.data;
+				}
+			}
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,19 +1,4 @@
 //Find a pair with given sum in a Balanced BST
-/*
- * 
-public class TreeNode 
-{
-	int data;
-	TreeNode left;
-	TreeNode right;
-	
-	public TreeNode(int data)
-	{
-		this.data=data;
-	}
-}
-
- */
 import java.util.Stack;
 
 public class PairSum 

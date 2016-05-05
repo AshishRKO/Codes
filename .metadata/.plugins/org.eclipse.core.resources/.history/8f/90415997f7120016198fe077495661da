@@ -1,19 +1,4 @@
 //Find a pair with given sum in a Balanced BST
-/*
- * 
-public class TreeNode 
-{
-	int data;
-	TreeNode left;
-	TreeNode right;
-	
-	public TreeNode(int data)
-	{
-		this.data=data;
-	}
-}
-
- */
 import java.util.Stack;
 
 public class PairSum 
@@ -38,7 +23,6 @@ public class PairSum
 		int val2=0;
 		while(true)
 		{
-			// Find next node in normal Inorder traversal.
 			while(done1==false)
 			{
 				if(curr1!=null)
@@ -55,7 +39,7 @@ public class PairSum
 				}
 			}
 		
-			// Find next node in REVERSE Inorder traversal.
+		
 			while(done2==false)
 			{
 				if(curr2!=null)
