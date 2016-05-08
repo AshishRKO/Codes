@@ -5,7 +5,7 @@ class Height
 
 public class Diameter 
 {
-	// Complexity - O(n)
+	// Complexity - O(n^2)
 	public static int diameter(TreeNode root)
 	{
 		if(root==null)
@@ -46,12 +46,22 @@ public class Diameter
 
 		int ld=fastDiameter(root.left, lh);
 		int rd=fastDiameter(root.right, rh);
-
+		
 		height.h =Math.max(lh.h,rh.h)+1;
-
+		
 		return Math.max(lh.h+rh.h+1,Math.max(ld,rd));
 	}
 
+	public static int countNodes(TreeNode root) 
+    {
+        if(root==null)
+            return 0;
+            
+        return countNodes(root.left)+countNodes(root.right)+1;
+        
+      
+    }
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 				TreeNode root=new TreeNode(1);
@@ -59,7 +69,7 @@ public class Diameter
 		root.right=new TreeNode(3);
 		root.left.left=new TreeNode(4);
 		root.left.right=new TreeNode(5);
-
+		System.out.println("count= "+countNodes(root));
 		System.out.println("Diameter = "+fastDiameter(root,new Height()));
 
 	}

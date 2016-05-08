@@ -13,26 +13,26 @@
 		<item value="true" key="casesensitive"/>
 		<item value="false" key="incremental"/>
 		<item value="false" key="wholeword"/>
-		<item value="Node" key="selection"/>
+		<item value="data" key="selection"/>
 		<list key="findhistory">
+			<item value="val"/>
+			<item value="NewNode"/>
+			<item value="-&gt;"/>
+			<item value="new Node"/>
 			<item value="ListNode"/>
 			<item value="EVENING"/>
 			<item value="ODDINF"/>
 			<item value="odd"/>
-			<item value="even"/>
-			<item value="val"/>
-			<item value="data"/>
-			<item value="Node5"/>
 		</list>
 		<list key="replacehistory">
+			<item value="data"/>
+			<item value="new TreeNode"/>
+			<item value="."/>
+			<item value="new ListNode"/>
 			<item value="Node"/>
 			<item value="even"/>
 			<item value="odd"/>
 			<item value="EVENING"/>
-			<item value="ODDINF"/>
-			<item value="ODDING"/>
-			<item value="EVE"/>
-			<item value="odding"/>
 		</list>
 	</section>
 </section>

@@ -96,6 +96,12 @@ public class PairSum
 	    root.left.right = new TreeNode(12);
 	    root.right.left = new TreeNode(16);
 	    root.right.right = new TreeNode(25);
+					    /*
+				        15
+				     /     \
+				   10      20
+				  / \     /  \
+				 8  12   16  25    */
 	 
 	    int target = 33;
 	    if (isPairPresent(root, target) == false)
