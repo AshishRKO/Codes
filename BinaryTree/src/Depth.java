@@ -3,18 +3,15 @@ public class Depth
 {
 	public static int minDepth(TreeNode root) 
     {
-        if(root==null)
-			return 0;
-			
-		if(root.left==null)
-		    return 1+minDepth(root.right);
-		if(root.right==null)
-		    return 1+minDepth(root.left);
-
-		int l=minDepth(root.left);
-		int r=minDepth(root.right);
-
-		return Math.min(l,r)+1;    
+        if(root == null) return 0;
+        int left = minDepth(root.left);
+        int right = minDepth(root.right);
+        
+        // When the tree is skewed Tree
+        if(left == 0 || right == 0) 
+            return left + right + 1;
+        else // Same as maxDepth
+            return Math.min(left,right) + 1;
     }
 
     public static int maxDepth(TreeNode root) 
