@@ -12,12 +12,6 @@ public class InorderAndPreorder
 		//System.out.println("pre[i++]= "+pre[i++]);
 		TreeNode root=new TreeNode(pre[i]);
 		i++;
-		//System.out.println("i= "+i);
-		if(instart==inend)
-			return root;
-		
-		if(instart==inend)
-			return root;
 		
 		int Inindex=search(in,instart, inend, root.data);
 		root.left=buildTree(in,pre,instart,Inindex-1);
