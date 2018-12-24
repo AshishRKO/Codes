@@ -1,0 +1,54 @@
+
+-squid:RightCurlyBraceSameLineAsNextBlockCheck1"HMove this "else" on the same line that the previous closing curly brace.(„¶áìøÿÿÿÿ8ŸŒòùö,
+-squid:RightCurlyBraceSameLineAsNextBlockCheckB"HMove this "else" on the same line that the previous closing curly brace.(„¶áìøÿÿÿÿ8ŸŒòùö,
+-squid:RightCurlyBraceSameLineAsNextBlockCheckP"HMove this "else" on the same line that the previous closing curly brace.(ƒ¹¡“ÿÿÿÿÿ8ŸŒòùö,
+Jsquid:IndentationCheck]"!Make this line start at column 5.(·üÁ¼8ŸŒòùö,
+X
+squid:S126R";"if ... else if" constructs should end with "else" clauses.(óÿé¢8ŸŒòùö,
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+› squid:MethodCyclomaticComplexity"cThe Cyclomatic Complexity of this method "isPairPresent" is 12 which is greater than 10 authorized.(À®îÏûÿÿÿÿ8ŸŒòùö,
+v"squid:LeftCurlyBraceStartLineCheckZ"AMove this left curly brace to the beginning of next line of code.(Çµí‘8ŸŒòùö,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(°˜†»ıÿÿÿÿ8ŸŒòùö,
+|squid:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(„Áõ®şÿÿÿÿ8ŸŒòùö,
+V
+squid:S106M"9Replace this use of System.out or System.err by a logger.(ÑæğÈ8ŸŒòùö,
+V
+squid:S106f"9Replace this use of System.out or System.err by a logger.(«ÙºÖ8ŸŒòùö,
+p
+squid:S109\"SAssign this magic number 15 to a well-named constant, and use the constant instead.(ğ¿µ8ŸŒòùö,
+p
+squid:S109]"SAssign this magic number 10 to a well-named constant, and use the constant instead.(·üÁ¼8ŸŒòùö,
+u
+squid:S109^"SAssign this magic number 20 to a well-named constant, and use the constant instead.(ú“òÍûÿÿÿÿ8ŸŒòùö,
+t
+squid:S109_"RAssign this magic number 8 to a well-named constant, and use the constant instead.(äÎ£Èùÿÿÿÿ8ŸŒòùö,
+u
+squid:S109`"SAssign this magic number 12 to a well-named constant, and use the constant instead.(µ×´Õúÿÿÿÿ8ŸŒòùö,
+p
+squid:S109a"SAssign this magic number 16 to a well-named constant, and use the constant instead.(Ğ§™ˆ8ŸŒòùö,
+p
+squid:S109b"SAssign this magic number 25 to a well-named constant, and use the constant instead.(›©àê8ŸŒòùö,
+p
+squid:S109d"SAssign this magic number 33 to a well-named constant, and use the constant instead.(î±™ë8ŸŒòùö,
+Lsquid:S1125*")Remove the literal "false" boolean value.(üÌÆ¨ûÿÿÿÿ8ŸŒòùö,
+Gsquid:S1125;")Remove the literal "false" boolean value.(‹Ô±·8ŸŒòùö,
+Gsquid:S1125e")Remove the literal "false" boolean value.(¦ø¤ê8ŸŒòùö,
+Usquid:S1135["2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck("?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck+"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck-"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck2"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck<"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheck>"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheckC"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+w squid:LeftCurlyBraceEndLineCheckL"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ŸŒòùö,
+usquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 21 to the 15 allowed.(À®îÏûÿÿÿÿ8ŸŒòùö,
+3squid:S00121"Missing curly brace.(‹ÜÑˆ8ŸŒòùö,
+8squid:S00121P"Missing curly brace.(ƒ¹¡“ÿÿÿÿÿ8ŸŒòùö,
+3squid:S00121R"Missing curly brace.(óÿé¢8ŸŒòùö,
+8squid:S00121U"Missing curly brace.(âŸµÍûÿÿÿÿ8ŸŒòùö,
+3squid:S00121e"Missing curly brace.(¦ø¤ê8ŸŒòùö,
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(°˜†»ıÿÿÿÿ8ŸŒòùö,
+ssquid:S1149"PReplace the synchronized class "Stack" by an unsynchronized one such as "Deque".(„Áõ®şÿÿÿÿ8ŸŒòùö,

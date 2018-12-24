@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EclipseCodeFormatterProjectSettings">
+    <option name="selectedGlobalProfile">
+      <Settings>
+        <option name="eclipseVersion" value="ECLIPSE_44" />
+        <option name="formatter" value="ECLIPSE" />
+        <option name="id" value="1540206396247" />
+        <option name="importOrderConfigFilePath" value="$USER_HOME$/Projects/ali_import_order.importorder" />
+        <option name="importOrderFromFile" value="true" />
+        <option name="importOrdering" value="ECLIPSE_44" />
+        <option name="name" value="Alipay_Profile" />
+        <option name="pathToConfigFileJava" value="$USER_HOME$/Projects/AlipayFormatter.xml" />
+        <option name="selectedJavaProfile" value="Alipay Convention" />
+        <option name="useOldEclipseJavaFormatter" value="true" />
+      </Settings>
+    </option>
+  </component>
+</project>
