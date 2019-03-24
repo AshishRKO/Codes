@@ -1,0 +1,41 @@
+
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(‹›¤–8â¶Ğ˜-
+Jsquid:IndentationCheckE"!Make this line start at column 5.(ä§³8ôÒà˜-
+u
+squid:S109"SAssign this magic number 20 to a well-named constant, and use the constant instead.(ßÕìùÿÿÿÿ8ğÿÆ˜-
+Jsquid:IndentationCheck0"!Make this line start at column 5.(‹ÜÑˆ8â¶Ğ˜-
+{"squid:LeftCurlyBraceStartLineCheck/"AMove this left curly brace to the beginning of next line of code.(şí¨áüÿÿÿÿ8â¶Ğ˜-
+t
+squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(¼±‚şûÿÿÿÿ8ƒîÆ˜-
+o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Çµí‘
+Jsquid:IndentationCheck*"!Make this line start at column 5.(İ—Éñ8â¶Ğ˜-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¬âß¼ûÿÿÿÿ8æá˜-
+[
+squid:S106%"9Replace this use of System.out or System.err by a logger.(à×à˜úÿÿÿÿ8üÿå˜-
+u
+squid:S109"SAssign this magic number 25 to a well-named constant, and use the constant instead.(™À´†øÿÿÿÿ8ƒîÆ˜-
+3squid:S001210"Missing curly brace.(‹ÜÑˆ8â¶Ğ˜-
+Osquid:S2039",Explicitly declare the visibility for "max".(Ñ“ëäúÿÿÿÿ8â¶Ğ˜-
+3squid:S00121E"Missing curly brace.(ä§³8ôÒà˜-
+o
+squid:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ƒµ—‚8ğÿÆ˜-
+{"squid:LeftCurlyBraceStartLineCheck`"AMove this left curly brace to the beginning of next line of code.(ˆÎÊÿÿÿÿÿ8ôÒà˜-
+hsquid:S00103"KSplit this 191 characters long line (which is greater than 120 authorized).(é¹°äûÿÿÿÿ
+isquid:CommentedOutCodeLinec"<This block of commented-out lines of code should be removed.(ö¶®¬8ôÒà˜-
+usquid:S00117V"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(®¨ıÿÿÿÿ8ôÒà˜-
+t
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(äÙÜÔûÿÿÿÿ8°‘Å˜-
+u
+squid:S109"SAssign this magic number 10 to a well-named constant, and use the constant instead.(¥Ü¨–üÿÿÿÿ8ƒîÆ˜-
+w squid:LeftCurlyBraceEndLineCheckB"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ôÒà˜-
+u
+squid:S109"SAssign this magic number 10 to a well-named constant, and use the constant instead.(ò ¸šüÿÿÿÿ8âçÃ˜-
+„"squid:ClassVariableVisibilityCheck"OMake val a static final constant or non-public and provide accessors if needed.(Ô¸úÏ8æá˜-
+Jsquid:IndentationCheck"!Make this line start at column 3.(Ô¸úÏ8æá˜-
+Osquid:IndentationCheck"!Make this line start at column 3.(Ñ“ëäúÿÿÿÿ8â¶Ğ˜-
+{"squid:LeftCurlyBraceStartLineCheck)"AMove this left curly brace to the beginning of next line of code.(»­Àøÿÿÿÿ8â¶Ğ˜-
+Jsquid:IndentationCheckd"!Make this line start at column 5.(üº¹Ô8ôÒà˜-
+usquid:S00117O"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úáûùÿÿÿÿ8ôÒà˜-
+Osquid:IndentationCheck"!Make this line start at column 5.(ò ¸šüÿÿÿÿ8ğ¶À˜-
+V
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ûßëŠ8ƒçÇ˜-

@@ -4,6 +4,7 @@
  */
 
 import java.util.HashMap;
+import java.util.List;
 
 /**
  * @author Ashish Barthwal
@@ -19,6 +20,11 @@ public class TrieInsert {
     private class TrieNode
     {
         HashMap<Character, TrieNode> children;
+
+        List<String> list;
+
+        //O(N) N - length of string
+        // only 10 elements are there
 
         // isEndOfWord is true if the node represents
         // end of a word
@@ -108,14 +114,16 @@ public class TrieInsert {
 
         TrieInsert trieInsert = new TrieInsert();
 
-        trieInsert.insert("ASHIISH");
-        trieInsert.insert("ASH");
-        trieInsert.insert("ASHISH");
+        trieInsert.insert("mobile");
+        trieInsert.insert("mob1");
+        trieInsert.insert("mo2");
+        trieInsert.insert("pen");
+        trieInsert.insert("paper");
 
 
         char str[] = new char[7];
         trieInsert.display(root, str, 0);
 
-        System.out.println(trieInsert.search("ASH"));
+        System.out.println(trieInsert.search("m"));
     }
 }

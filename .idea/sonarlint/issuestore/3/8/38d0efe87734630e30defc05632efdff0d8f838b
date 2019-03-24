@@ -1,0 +1,145 @@
+
+Vsquid:S11975"8Move the array designator from the variable to the type.(à²Ó©8•¥Ôš-
+Msquid:S2039*"*Explicitly declare the visibility for "y".(ºš¿»ùÿÿÿÿ8»úİÒš-
+o
+squid:S109#"RAssign this magic number 2 to a well-named constant, and use the constant instead.(–É¶ø8‡ÀÊÔš-
+w squid:LeftCurlyBraceEndLineCheckZ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+3squid:S00121"Missing curly brace.(¥Øñù8‡ÀÊÔš-
+Osquid:IndentationCheck'"!Make this line start at column 3.(†›ø…øÿÿÿÿ8Ò¶ŠÓš-
+psquid:S1142"MReduce the number of returns of this method 6, down to the maximum allowed 3.(€£Ï÷úÿÿÿÿ8‡ÀÊÔš-
+9squid:S00121ü"Missing curly brace.(„¶áìøÿÿÿÿ8€§ôÓš-
+n
+squid:S109 "RAssign this magic number 4 to a well-named constant, and use the constant instead.(°Ä²8‡ÀÊÔš-
+Osquid:IndentationCheck)"!Make this line start at column 5.(¾„ëüÿÿÿÿ8»úİÒš-
+Psquid:IndentationCheckê"!Make this line start at column 5.(¬ï¥«üÿÿÿÿ8€§ôÓš-
+t"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ÏîÊÎúÿÿÿÿ
+x squid:LeftCurlyBraceEndLineCheckÛ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8€§ôÓš-
+˜ squid:MethodCyclomaticComplexityG"`The Cyclomatic Complexity of this method "rotOranges" is 23 which is greater than 10 authorized.(š…Ø¶úÿÿÿÿ8»úİÒš-
+8squid:S00121"Missing curly brace.(ğ¯“úÿÿÿÿ8‡ÀÊÔš-
+dsquid:TrailingCommentCheck·"6Move this trailing comment on the previous empty line.(êÛöË8òº­Óš-
+x squid:LeftCurlyBraceEndLineCheck°"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+o
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¥Øñù8‡ÀÊÔš-
+t
+squid:S109"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ğ¯“úÿÿÿÿ8‡ÀÊÔš-
+w squid:LeftCurlyBraceEndLineCheckg"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+p
+squid:S134h"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+[squid:S1197G"8Move the array designator from the variable to the type.(š…Ø¶úÿÿÿÿ8»úİÒš-
+hsquid:S3052*"ERemove this initialization to "0", the compiler will do that for you.(ºš¿»ùÿÿÿÿ8»úİÒš-
+Ksquid:IndentationCheckë"!Make this line start at column 7.(¯Äâ8×Ã¶Óš-
+Qsquid:IndentationCheck""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+8squid:S00121""Missing curly brace.(„¶áìøÿÿÿÿ8‡ÀÊÔš-
+isquid:TrailingCommentCheck€"6Move this trailing comment on the previous empty line.(×µßÿÿÿÿÿ8¼úİÒš-
+w squid:LeftCurlyBraceEndLineCheckH"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8»úİÒš-
+w squid:LeftCurlyBraceEndLineCheck_"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+Psquid:IndentationCheckz""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+Vsquid:S1197V"8Move the array designator from the variable to the type.(ğ ’±8•¥¡Ôš-
+dsquid:TrailingCommentCheck•"6Move this trailing comment on the previous empty line.( ëàÕ8¼úİÒš-
+Ksquid:IndentationCheckù"!Make this line start at column 5.(Âú×8Ñì‚Ôš-
+x squid:LeftCurlyBraceEndLineCheckÒ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ÕÓÒÓš-
+Qsquid:IndentationCheck¨""Make this line start at column 13.(™¯’üÿÿÿÿ8òº­Óš-
+x squid:LeftCurlyBraceEndLineCheckœ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+x squid:LeftCurlyBraceEndLineCheckø"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8€§ôÓš-
+Osquid:IndentationCheck7"!Make this line start at column 5.(§ííıÿÿÿÿ8ß¸¨Ôš-
+Qsquid:IndentationCheck±""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+x squid:LeftCurlyBraceEndLineCheck¥"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+x squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+isquid:TrailingCommentCheckÂ"6Move this trailing comment on the previous empty line.(õÂï«ûÿÿÿÿ8òº­Óš-
+Osquid:IndentationCheck"!Make this line start at column 3.(€£Ï÷úÿÿÿÿ8ÂÁõÓš-
+x squid:LeftCurlyBraceEndLineCheck»"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ß–ÀØùÿÿÿÿ
+w squid:LeftCurlyBraceEndLineChecky"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+W
+squid:S106ı"9Replace this use of System.out or System.err by a logger.(ã¥Úì8€§ôÓš-
+Qsquid:IndentationCheck†""Make this line start at column 13.(™¯’üÿÿÿÿ8»úİÒš-
+w"squid:LeftCurlyBraceStartLineCheckë"AMove this left curly brace to the beginning of next line of code.(¯Äâ8×Ã¶Óš-
+p
+squid:S109ù"RAssign this magic number 2 to a well-named constant, and use the constant instead.(Âú×8¸§ßÔš-
+isquid:TrailingCommentCheck¬"6Move this trailing comment on the previous empty line.(ÚäÕûÿÿÿÿ8òº­Óš-
+Gsquid:S1125Ç"(Remove the literal "true" boolean value.(í³åç8Ø…²Ôš-
+Psquid:IndentationCheckh""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+Osquid:IndentationCheck["!Make this line start at column 7.(ŸÿáÑÿÿÿÿÿ8»úİÒš-
+Qsquid:IndentationCheck""Make this line start at column 13.(™¯’üÿÿÿÿ8ªã¬Óš-
+w"squid:LeftCurlyBraceStartLineCheckÇ"AMove this left curly brace to the beginning of next line of code.(í³åç8¼ÜÓš-
+|"squid:LeftCurlyBraceStartLineCheckê"AMove this left curly brace to the beginning of next line of code.(¬ï¥«üÿÿÿÿ8€§ôÓš-
+Qsquid:IndentationCheckÉ""Make this line start at column 11.(ÈÙÀ•ûÿÿÿÿ8ôº±Ôš-
+usquid:S00117J"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(âÇŸßûÿÿÿÿ8¼úİÒš-
+Osquid:IndentationCheck`"!Make this line start at column 9.(ÀÖù’ùÿÿÿÿ8»úİÒš-
+q
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+w squid:LeftCurlyBraceEndLineCheck-"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8»úİÒš-
+w squid:LeftCurlyBraceEndLineCheck("?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8»úİÒš-
+4squid:S00121ú"Missing curly brace.(ƒ•Ø8€§ôÓš-
+Psquid:IndentationCheckí"!Make this line start at column 9.(›°Ì×ûÿÿÿÿ8€§ôÓš-
+p
+squid:S134z"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+Qsquid:IndentationCheck¼""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+w squid:LeftCurlyBraceEndLineChecki"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+Jsquid:IndentationCheck."!Make this line start at column 7.(µè©8»úİÒš-
+Lsquid:S2039+".Explicitly declare the visibility for "value".(‘ØºÕ8¥úÒš-
+w squid:LeftCurlyBraceEndLineCheck>"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8»úİÒš-
+Psquid:IndentationCheckl""Make this line start at column 13.(™¯’üÿÿÿÿ8»úİÒš-
+Wsquid:S1197è"8Move the array designator from the variable to the type.(ï©ÀŞ8€§ôÓš-
+q
+squid:S134¼"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+Š
+squid:S138G"hThis method has 114 lines, which is greater than the 75 lines authorized. Split it into smaller methods.(š…Ø¶úÿÿÿÿ8òº­Óš-
+\
+squid:S106ó"9Replace this use of System.out or System.err by a logger.(™çšùÿÿÿÿ8€§ôÓš-
+usquid:S3776G"RRefactor this method to reduce its Cognitive Complexity from 67 to the 15 allowed.(š…Ø¶úÿÿÿÿ8¼úİÒš-
+Qsquid:IndentationCheck›""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8ªã¬Óš-
+x squid:LeftCurlyBraceEndLineCheckš"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+Psquid:IndentationCheckÜ"!Make this line start at column 9.(¥öÚÔüÿÿÿÿ8€§ôÓš-
+q
+squid:S134¦"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+W
+squid:S106û"9Replace this use of System.out or System.err by a logger.(§ÖÙ•8€§ôÓš-
+o
+squid:S109#"RAssign this magic number 2 to a well-named constant, and use the constant instead.(–É¶ø8‡ÀÊÔš-
+jsquid:CommentedOutCodeLineÈ"<This block of commented-out lines of code should be removed.(¬ŸËá8ÙãúÓš-
+x squid:LeftCurlyBraceEndLineChecké"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8€§ôÓš-
+Qsquid:IndentationCheck„""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+Qsquid:IndentationCheck‘""Make this line start at column 13.(™¯’üÿÿÿÿ8»úİÒš-
+x squid:LeftCurlyBraceEndLineCheck§"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+x squid:LeftCurlyBraceEndLineCheck²"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+dsquid:TrailingCommentCheck¡"6Move this trailing comment on the previous empty line.(ÂÁÕÒ8ªã¬Óš-
+Qsquid:IndentationCheck¾""Make this line start at column 13.(™¯’üÿÿÿÿ8òº­Óš-
+Osquid:IndentationCheck?"!Make this line start at column 5.(¢ıƒşÿÿÿÿ8»úİÒš-
+Jsquid:IndentationCheckÓ"!Make this line start at column 9.(ÓØ£R8¾êùÓš-
+q
+squid:S134›"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8ªã¬Óš-
+x squid:LeftCurlyBraceEndLineCheck…"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+Lsquid:S2208".Explicitly import the specific classes needed.(Î€ŒÙ8ÔşãÒš-
+Qsquid:IndentationCheck³""Make this line start at column 13.(™¯’üÿÿÿÿ8òº­Óš-
+w squid:LeftCurlyBraceEndLineCheck{"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+x squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¼úİÒš-
+hsquid:S3052)"ERemove this initialization to "0", the compiler will do that for you.(¾„ëüÿÿÿÿ8»úİÒš-
+Msquid:S2039)"*Explicitly declare the visibility for "x".(¾„ëüÿÿÿÿ8»úİÒš-
+x squid:LeftCurlyBraceEndLineCheck½"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8òº­Óš-
+o
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(Úåö8‡ÀÊÔš-
+csquid:S3052+"ERemove this initialization to "0", the compiler will do that for you.(‘ØºÕ8¥úÒš-
+w squid:LeftCurlyBraceEndLineCheck6"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8»úİÒš-
+csquid:S2184#"ECast one of the operands of this subtraction operation to a "double".(–É¶ø8‡ÀÊÔš-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(€£Ï÷úÿÿÿÿ8ÂÁõÓš-
+q
+squid:S134±"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+dsquid:TrailingCommentCheckŠ"6Move this trailing comment on the previous empty line.(æ²İ±8¼úİÒš-
+q
+squid:S134„"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(ù¤ Ñûÿÿÿÿ8»úİÒš-
+Psquid:IndentationCheck|""Make this line start at column 13.(™¯’üÿÿÿÿ8»úİÒš-
+Qsquid:IndentationCheck¦""Make this line start at column 11.(ù¤ Ñûÿÿÿÿ8òº­Óš-
+\
+squid:S106ğ"9Replace this use of System.out or System.err by a logger.(ªÓ¼áşÿÿÿÿ8€§ôÓš-
+8squid:S00121"Missing curly brace.(èüªíıÿÿÿÿ8‡ÀÊÔš-
+w"squid:LeftCurlyBraceStartLineCheckƒ"AMove this left curly brace to the beginning of next line of code.(ò¦áª8»úİÒš-
+}squid:S10677"ZReduce the number of conditional operators (4) used in the expression (maximum allowed 3).(§ííıÿÿÿÿ8ß¸¨Ôš-
+8squid:S00121"Missing curly brace.(Êˆ¨Éşÿÿÿÿ8’˜ŞÔš-
+2squid:S00121"Missing curly brace.(Úçø8‡ÀÊÔš-
+Osquid:IndentationCheckJ"!Make this line start at column 5.(âÇŸßûÿÿÿÿ8»úİÒš-
+Osquid:IndentationCheck"!Make this line start at column 5.(Êˆ¨Éşÿÿÿÿ8’˜ŞÔš-
+n
+squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Úçø8‡ÀÊÔš-
+\
+squid:S106í"9Replace this use of System.out or System.err by a logger.(›°Ì×ûÿÿÿÿ8€§ôÓš-

@@ -1,0 +1,51 @@
+
+Jsquid:IndentationCheck"!Make this line start at column 5.(ğµÒÏ8œá™ş,
+t
+squid:S109|"RAssign this magic number 7 to a well-named constant, and use the constant instead.(™ìæÜıÿÿÿÿ8œá™ş,
+Osquid:IndentationCheckg"!Make this line start at column 7.(Ëæìñûÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheckU"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Osquid:S2039"1Explicitly declare the visibility for "children".(ğµÒÏ8œá™ş,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(µ¼äÉ8œá™ş,
+Osquid:IndentationCheck"!Make this line start at column 3.(´ÑË»ùÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheck*"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineChecki"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Osquid:IndentationCheck/"!Make this line start at column 7.(è¹£šıÿÿÿÿ8œá™ş,
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¿ØÊÔøÿÿÿÿ8œá™ş,
+Osquid:IndentationCheckD"!Make this line start at column 7.(è¹£šıÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheck?"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Jsquid:IndentationCheck"!Make this line start at column 3.(È¶¤Á8œá™ş,
+Isquid:IndentationCheck\"!Make this line start at column 7.(ƒÚáB8œá™ş,
+[squid:S1197|"8Move the array designator from the variable to the type.(™ìæÜıÿÿÿÿ8œá™ş,
+?squid:S2694"!Make this a "static" inner class.(È¶¤Á8ÍÑ¶‡™-
+Osquid:IndentationCheck""!Make this line start at column 7.(ÖÌ×Ëûÿÿÿÿ8œá™ş,
+V
+squid:S106"9Replace this use of System.out or System.err by a logger.(­½’ş8œá™ş,
+Wsquid:S2039"4Explicitly declare the visibility for "isEndOfWord".(¿äÑÚÿÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheck."?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+p
+squid:S109a"SAssign this magic number 26 to a well-named constant, and use the constant instead.(‡ÛÓä8œá™ş,
+w squid:LeftCurlyBraceEndLineCheckb"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheck4"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Osquid:IndentationCheck@"!Make this line start at column 5.(†Á¢¬ÿÿÿÿÿ8œá™ş,
+Jsquid:IndentationCheckj"!Make this line start at column 9.(Õæö´8œá™ş,
+nsquid:CommentedOutCodeLine]"<This block of commented-out lines of code should be removed.(Ú›üÿÿÿÿ8œá™ş,
+Jsquid:IndentationChecks"!Make this line start at column 5.(¨íïÙ8œá™ş,
+u
+squid:S109g"SAssign this magic number 65 to a well-named constant, and use the constant instead.(Ëæìñûÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheckI"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Jsquid:IndentationCheck"!Make this line start at column 5.(¹Ğºƒ8œá™ş,
+U
+squid:S106\"9Replace this use of System.out or System.err by a logger.(ƒÚáB8œá™ş,
+Osquid:IndentationCheck+"!Make this line start at column 5.(†Á¢¬ÿÿÿÿÿ8œá™ş,
+?squid:S3010"!Remove this assignment of "root".(¹Ğºƒ8œá™ş,
+Psquid:S2039"-Explicitly declare the visibility for "list".(şû¥„úÿÿÿÿ8Ï‰µ‡™-
+{"squid:LeftCurlyBraceStartLineCheck!"AMove this left curly brace to the beginning of next line of code.(èÀ®Õûÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheckZ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Isquid:IndentationCheck5"!Make this line start at column 9.(¸®Ã'8œá™ş,
+Osquid:IndentationCheckY"!Make this line start at column 5.(€©»¦ûÿÿÿÿ8œá™ş,
+w squid:LeftCurlyBraceEndLineCheckC"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8œá™ş,
+Jsquid:IndentationCheckJ"!Make this line start at column 9.(û½áæ8œá™ş,
+v"squid:LeftCurlyBraceStartLineCheckq"AMove this left curly brace to the beginning of next line of code.(Çµí‘8œá™ş,
+[squid:S1197T"8Move the array designator from the variable to the type.(ĞïÊşÿÿÿÿ8œá™ş,
+isquid:CommentedOutCodeLine["<This block of commented-out lines of code should be removed.(ü¶…8œá™ş,

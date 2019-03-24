@@ -1,0 +1,25 @@
+
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Çµí‘8úÒ“’Œ-
+Jsquid:IndentationCheck,"!Make this line start at column 7.(ã¤°8£Â–’Œ-
+[
+squid:S106#"9Replace this use of System.out or System.err by a logger.(ã¿¢Ôùÿÿÿÿ8úÒ“’Œ-
+3squid:S00121"Missing curly brace.(™ı›Ö8úÒ“’Œ-
+3squid:S00121"Missing curly brace.(… úá8úÒ“’Œ-
+Osquid:IndentationCheck
+"!Make this line start at column 5.(àš„Ûûÿÿÿÿ8úÒ“’Œ-
+w squid:LeftCurlyBraceEndLineCheck2"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¯å›’Œ-
+Osquid:IndentationCheck "!Make this line start at column 5.(Ğ•—¡øÿÿÿÿ8úÒ“’Œ-
+]squid:S1854'":Remove this useless assignment to local variable "second".(¸‡»˜ÿÿÿÿÿ8Î¨Š“Œ-
+w squid:LeftCurlyBraceEndLineCheck+"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8“è•’Œ-
+8squid:S00121
+"Missing curly brace.(àš„Ûûÿÿÿÿ8úÒ“’Œ-
+Osquid:IndentationCheck"!Make this line start at column 3.(’›ê£ÿÿÿÿÿ8úÒ“’Œ-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(’›ê£ÿÿÿÿÿ8úÒ“’Œ-
+\squid:S1698
+"9Use the "equals" method if value comparison was intended.(àš„Ûûÿÿÿÿ8úÒ“’Œ-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¸–Õş8úÒ“’Œ-
+Jsquid:IndentationCheck3"!Make this line start at column 9.(ñß¢´8¯å›’Œ-
+Lsquid:S11251")Remove the literal "false" boolean value.(ğíƒ…ûÿÿÿÿ8º¸¬’Œ-
+V
+squid:S1063"9Replace this use of System.out or System.err by a logger.(ñß¢´8¯å›’Œ-
+8squid:S00121"Missing curly brace.(„¶áìøÿÿÿÿ8úÒ“’Œ-

@@ -1,0 +1,254 @@
+
+jsquid:CommentedOutCodeLineš"<This block of commented-out lines of code should be removed.(Ó®ÉÃ8ñ¼í…-
+p
+squid:S109"RAssign this magic number 8 to a well-named constant, and use the constant instead.(É–€Â8ç½Çğ-
+p
+squid:S109½"RAssign this magic number 8 to a well-named constant, and use the constant instead.(É–€Â8ë––†-
+nsquid:CommentedOutCodeLine_"<This block of commented-out lines of code should be removed.(®ª§‘üÿÿÿÿ8µ§Üï-
+v
+squid:S109Ç"SAssign this magic number 11 to a well-named constant, and use the constant instead.(¹µèáûÿÿÿÿ8Ü°œ†-
+v
+squid:S109„"SAssign this magic number 13 to a well-named constant, and use the constant instead.(¬†Æåÿÿÿÿÿ8º²ğ-
+q
+squid:S109¸"SAssign this magic number 19 to a well-named constant, and use the constant instead.(˜¯ˆ‘8şá“†-
+t
+squid:S109@"RAssign this magic number 5 to a well-named constant, and use the constant instead.(š®²Îøÿÿÿÿ8ƒ½Õï-
+W
+squid:S106"9Replace this use of System.out or System.err by a logger.(É–€Â8šö¢ğ-
+o
+squid:S109 "RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ê¢«e8½íô…-
+o
+squid:S109z"RAssign this magic number 6 to a well-named constant, and use the constant instead.(ÙêÒÌ8šö¢ğ-
+q
+squid:S109µ"SAssign this magic number 17 to a well-named constant, and use the constant instead.(Ÿ˜úë8 ’†-
+v
+squid:S109ƒ"SAssign this magic number 12 to a well-named constant, and use the constant instead.(¤†ÿ‘øÿÿÿÿ8µ±ğ-
+p
+squid:S109˜"RAssign this magic number 2 to a well-named constant, and use the constant instead.(å¨±Ò8áúì…-
+v
+squid:S109ƒ"SAssign this magic number 16 to a well-named constant, and use the constant instead.(Èµ•ğÿÿÿÿÿ8‹ûœŒ-
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+u
+squid:S109¢"RAssign this magic number 7 to a well-named constant, and use the constant instead.(Ïíöúÿÿÿÿ8ô‘ƒ†-
+n
+squid:S109"RAssign this magic number 2 to a well-named constant, and use the constant instead.(İ€È18×ş¹ğ-
+u
+squid:S109÷"RAssign this magic number 7 to a well-named constant, and use the constant instead.(¡ÃôŞıÿÿÿÿ8ıãŒ-
+isquid:CommentedOutCodeLineb"<This block of commented-out lines of code should be removed.(øÊÖ8¬Üâï-
+Wsquid:UselessImportCheck",Remove this unused import 'java.util.Queue'.(Äá™ô8Ÿ·³™Š-
+u
+squid:S109Ğ"RAssign this magic number 7 to a well-named constant, and use the constant instead.(§çÆŒùÿÿÿÿ8”åŸ†-
+v
+squid:S109"SAssign this magic number 11 to a well-named constant, and use the constant instead.(Ù¡›·üÿÿÿÿ8ö©®ğ-
+8squid:S00121"Missing curly brace.(ƒÚÄ¦üÿÿÿÿ8¥ø¸ğ-
+q
+squid:S109€"SAssign this magic number 10 to a well-named constant, and use the constant instead.(ËÖ¼•8«ß­ğ-
+p
+squid:S109€"RAssign this magic number 9 to a well-named constant, and use the constant instead.(¡Óª³8Óê›Œ-
+x squid:LeftCurlyBraceEndLineCheckÂ"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8×‹™†-
+v
+squid:S109„"SAssign this magic number 17 to a well-named constant, and use the constant instead.(ÖÒ”Åùÿÿÿÿ8óªŒ-
+3squid:S00121
+"Missing curly brace.(‹ÜÑˆ8ÅŒ°™Š-
+t
+squid:S109D"RAssign this magic number 8 to a well-named constant, and use the constant instead.(Ñ„¿ùÿÿÿÿ8ƒ½Õï-
+t
+squid:S109;"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ó¯‚ úÿÿÿÿ8ƒ½Õï-
+o
+squid:S109{"RAssign this magic number 7 to a well-named constant, and use the constant instead.(İ•œ8şÊ¦ğ-
+o
+squid:S109>"RAssign this magic number 4 to a well-named constant, and use the constant instead.(°ûÏÌ8ƒ½Õï-
+W
+squid:S106æ"9Replace this use of System.out or System.err by a logger.(É–€Â8×‹™†-
+o
+squid:S109k"RAssign this magic number 4 to a well-named constant, and use the constant instead.(è¦ÿ¬8ùéï-
+v
+squid:S109‡"SAssign this magic number 15 to a well-named constant, and use the constant instead.(§´éœşÿÿÿÿ8¾€´ğ-
+t
+squid:S109f"RAssign this magic number 8 to a well-named constant, and use the constant instead.(Š€˜¤ÿÿÿÿÿ8äºãï-
+p
+squid:S109æ"RAssign this magic number 8 to a well-named constant, and use the constant instead.(É–€Â8×‹™†-
+t
+squid:S109Y"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8“©Öï-
+V
+squid:S106•"9Replace this use of System.out or System.err by a logger.(§´a8’µè…-
+U
+squid:S1062"9Replace this use of System.out or System.err by a logger.(ü„ê!8óÊÙ™Š-
+v
+squid:S109²"SAssign this magic number 15 to a well-named constant, and use the constant instead.(•Œûşÿÿÿÿ8¨ã†-
+q
+squid:S109‰"SAssign this magic number 16 to a well-named constant, and use the constant instead.(¨ÕÌà8«¯µğ-
+Usquid:S2589"7Remove this expression which always evaluates to "true"(—ŸÊƒ8ûïÀğ-
+o
+squid:S109]"RAssign this magic number 5 to a well-named constant, and use the constant instead.(­²·£8ÇÎÛï-
+o
+squid:S109O"RAssign this magic number 4 to a well-named constant, and use the constant instead.(è¦ÿ¬8èÇéï-
+o
+squid:S109¤"RAssign this magic number 8 to a well-named constant, and use the constant instead.(¶ õ28è·…†-
+o
+squid:S109w"RAssign this magic number 4 to a well-named constant, and use the constant instead.(£³“º8šö¢ğ-
+t
+squid:S109u"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ó¯‚ úÿÿÿÿ8šö¢ğ-
+p
+squid:S109É"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ü»Ò‰8 ×œ†-
+u
+squid:S109î"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8ıãŒ-
+p
+squid:S109Ê"RAssign this magic number 4 to a well-named constant, and use the constant instead.(°ûÏÌ8×‹™†-
+o
+squid:S109I"SAssign this magic number 11 to a well-named constant, and use the constant instead.(Ÿû€|8ƒ½Õï-
+\
+squid:S106ì"9Replace this use of System.out or System.err by a logger.(âø¥Ïøÿÿÿÿ8ıãŒ-
+n
+squid:S1091"RAssign this magic number 2 to a well-named constant, and use the constant instead.(Ù·Ç)8šîåè‹-
+u
+squid:S109Ñ"RAssign this magic number 8 to a well-named constant, and use the constant instead.(æè­‘ùÿÿÿÿ8µö †-
+o
+squid:S109F"RAssign this magic number 9 to a well-named constant, and use the constant instead.(¡Óª³8ƒ½Õï-
+o
+squid:S109x"RAssign this magic number 5 to a well-named constant, and use the constant instead.(­²·£8¹å¥ğ-
+[
+squid:S1068"9Replace this use of System.out or System.err by a logger.(¾Íİ¡ùÿÿÿÿ8ÕØìï-
+p
+squid:S109ø"RAssign this magic number 8 to a well-named constant, and use the constant instead.(µÉùş8ıãŒ-
+p
+squid:S109ş"SAssign this magic number 15 to a well-named constant, and use the constant instead.(ğˆß|8Ë¡šŒ-
+p
+squid:S109İ"SAssign this magic number 15 to a well-named constant, and use the constant instead.(ëºût8ÌÙ¦†-
+v
+squid:S109ú"SAssign this magic number 12 to a well-named constant, and use the constant instead.(Äà­¹ûÿÿÿÿ8ş¤˜Œ-
+[
+squid:S106q"9Replace this use of System.out or System.err by a logger.(óúà…ıÿÿÿÿ8šö¢ğ-
+t
+squid:S109L"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ü¼çûÿÿÿÿ8ƒ½Õï-
+v
+squid:S109ı"SAssign this magic number 14 to a well-named constant, and use the constant instead.(––íóşÿÿÿÿ8˜á™Œ-
+V
+squid:S106k"9Replace this use of System.out or System.err by a logger.(è¦ÿ¬8ùéï-
+8squid:S00121"Missing curly brace.(ÙèŒ®úÿÿÿÿ8ı¥Íî-
+8squid:S00121,"Missing curly brace.(ÙèŒ®úÿÿÿÿ8øÔ…é‹-
+q
+squid:S109Õ"SAssign this magic number 10 to a well-named constant, and use the constant instead.(âêÎè8¿–Â‡-
+x squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8õ“‹†-
+u
+squid:S109ô"RAssign this magic number 5 to a well-named constant, and use the constant instead.(š®²Îøÿÿÿÿ8ıãŒ-
+o
+squid:S109C"RAssign this magic number 7 to a well-named constant, and use the constant instead.(ßÇøã8ƒ½Õï-
+3squid:S00121"Missing curly brace.(—ŸÊƒ8ûïÀğ-
+jsquid:CommentedOutCodeLineÒ"<This block of commented-out lines of code should be removed.(Øº¨¤8™›†-
+p
+squid:S109ñ"RAssign this magic number 4 to a well-named constant, and use the constant instead.(£³“º8ıãŒ-
+t
+squid:S109t"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8šö¢ğ-
+t
+squid:S109:"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8ƒ½Õï-
+q
+squid:S109ß"SAssign this magic number 16 to a well-named constant, and use the constant instead.(±ñÚÚ8²™¡‡-
+jsquid:CommentedOutCodeLine—"<This block of commented-out lines of code should be removed.(‰­Š¯8Ï®ì…-
+w squid:LeftCurlyBraceEndLineCheck)"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ı–È™Š-
+v
+squid:S109©"SAssign this magic number 11 to a well-named constant, and use the constant instead.(‡ç„ıÿÿÿÿ8õ“‹†-
+w squid:LeftCurlyBraceEndLineCheckT"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8“©Öï-
+t
+squid:S109e"RAssign this magic number 7 to a well-named constant, and use the constant instead.(ˆÒóÍúÿÿÿÿ8ìøâï-
+p
+squid:S109G"SAssign this magic number 10 to a well-named constant, and use the constant instead.(‚¦—›8ƒ½Õï-
+p
+squid:S109Î"RAssign this magic number 6 to a well-named constant, and use the constant instead.(ÖÅô8ŒŸ†-
+q
+squid:S109ª"SAssign this magic number 12 to a well-named constant, and use the constant instead.(¹­Åö8õ“‹†-
+o
+squid:S109~"RAssign this magic number 9 to a well-named constant, and use the constant instead.(ú•Ù€8éÉ©ğ-
+osquid:CommentedOutCodeLineò"<This block of commented-out lines of code should be removed.(¼ˆª®ÿÿÿÿÿ8ù—‘Œ-
+v
+squid:S109á"SAssign this magic number 18 to a well-named constant, and use the constant instead.(ÔµÛ¸üÿÿÿÿ8™¦¢‡-
+p
+squid:S109¦"RAssign this magic number 9 to a well-named constant, and use the constant instead.(—‡î»8˜††-
+p
+squid:S109Š"RAssign this magic number 8 to a well-named constant, and use the constant instead.(É–€Â8ŠÆŸŒ-
+q
+squid:S109Û"SAssign this magic number 13 to a well-named constant, and use the constant instead.(Ôêò«8Å¥†-
+t
+squid:S109`"RAssign this magic number 6 to a well-named constant, and use the constant instead.(šêÂêıÿÿÿÿ8“©Öï-
+o
+squid:S109\"RAssign this magic number 4 to a well-named constant, and use the constant instead.(£³“º8“©Öï-
+u
+squid:S109õ"RAssign this magic number 6 to a well-named constant, and use the constant instead.(šêÂêıÿÿÿÿ8ıãŒ-
+W
+squid:S106Ã"9Replace this use of System.out or System.err by a logger.(çıÑŸ8×‹™†-
+u
+squid:S109Æ"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8×‹™†-
+[squid:UselessImportCheck"1Remove this unused import 'java.util.LinkedList'.(»Äğ18Ÿ·³™Š-
+u
+squid:S109Í"RAssign this magic number 5 to a well-named constant, and use the constant instead.(éïŠÅÿÿÿÿÿ8Èˆ†-
+q
+squid:S109Š"SAssign this magic number 17 to a well-named constant, and use the constant instead.(§æ8¢ßµğ-
+p
+squid:S109Ô"RAssign this magic number 9 to a well-named constant, and use the constant instead.(×‡Ú8èÃÁ‡-
+q
+squid:S109"SAssign this magic number 10 to a well-named constant, and use the constant instead.(‚¦—›8êšœŒ-
+w squid:LeftCurlyBraceEndLineCheck7"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8‡€Õï-
+t
+squid:S109}"RAssign this magic number 8 to a well-named constant, and use the constant instead.(õø‡ıÿÿÿÿ8ß¨ğ-
+Jsquid:S2039",Explicitly declare the visibility for "max".(ñ‚®8˜ù·™Š-
+t
+squid:S109A"RAssign this magic number 6 to a well-named constant, and use the constant instead.(šêÂêıÿÿÿÿ8ƒ½Õï-
+nsquid:CommentedOutCodeLine0"<This block of commented-out lines of code should be removed.(ı´ø¤ıÿÿÿÿ8âœÙ™Š-
+p
+squid:S109"RAssign this magic number 3 to a well-named constant, and use the constant instead.(¡ïï÷8åÑí…-
+u
+squid:S109"RAssign this magic number 5 to a well-named constant, and use the constant instead.(¹îÂ†şÿÿÿÿ8¿–ô…-
+q
+squid:S109Ü"SAssign this magic number 14 to a well-named constant, and use the constant instead.(Å©´8’÷¥†-
+v
+squid:S109³"SAssign this magic number 16 to a well-named constant, and use the constant instead.(ÙÈ¶µúÿÿÿÿ8¨ã†-
+3squid:S00121*"Missing curly brace.(‹ÜÑˆ8ş½úè‹-
+q
+squid:S109¶"SAssign this magic number 18 to a well-named constant, and use the constant instead.(üÜ¯¬8Ìı’†-
+v"squid:LeftCurlyBraceStartLineCheck	"AMove this left curly brace to the beginning of next line of code.(ÅÒ©Ã8ÅŒ°™Š-
+t
+squid:S109J"RAssign this magic number 6 to a well-named constant, and use the constant instead.(Ú¢„Îùÿÿÿÿ8ƒ½Õï-
+V
+squid:S106O"9Replace this use of System.out or System.err by a logger.(è¦ÿ¬8õúäï-
+v
+squid:S109Ú"SAssign this magic number 12 to a well-named constant, and use the constant instead.(Ãå®ôşÿÿÿÿ8‘¤†-
+x squid:LeftCurlyBraceEndLineCheck”"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8’µè…-
+X
+squid:S126";"if ... else if" constructs should end with "else" clauses.(—ŸÊƒ8ûïÀğ-
+o
+squid:S109="RAssign this magic number 4 to a well-named constant, and use the constant instead.(£³“º8ƒ½Õï-
+v
+squid:S109†"SAssign this magic number 14 to a well-named constant, and use the constant instead.(´‘Ö†ÿÿÿÿÿ8›³ğ-
+u
+squid:S109ï"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ó¯‚ úÿÿÿÿ8ıãŒ-
+v
+squid:S109‡"SAssign this magic number 19 to a well-named constant, and use the constant instead.(çüÔëøÿÿÿÿ8Ú™ŸŒ-
+w squid:LeftCurlyBraceEndLineCheckp"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8šö¢ğ-
+W
+squid:S106Š"9Replace this use of System.out or System.err by a logger.(É–€Â8ıãŒ-
+v
+squid:S109à"SAssign this magic number 17 to a well-named constant, and use the constant instead.(Ï‚­Õüÿÿÿÿ8™¦¢‡-
+q
+squid:S109§"SAssign this magic number 10 to a well-named constant, and use the constant instead.(Ä¸Öò8õ“‹†-
+Jsquid:IndentationCheck"!Make this line start at column 3.(ñ‚®8˜ù·™Š-
+x squid:LeftCurlyBraceEndLineCheckë"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ıãŒ-
+V
+squid:S106U"9Replace this use of System.out or System.err by a logger.(›Üî8íóëï-
+q
+squid:S109†"SAssign this magic number 18 to a well-named constant, and use the constant instead.(Á‘§Ö8´×Œ-
+W
+squid:S106½"9Replace this use of System.out or System.err by a logger.(É–€Â8õ“‹†-
+v
+squid:S109¬"SAssign this magic number 13 to a well-named constant, and use the constant instead.(ÿù‰ßúÿÿÿÿ8ìà‹†-
+t
+squid:S109Z"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ó¯‚ úÿÿÿÿ8“©Öï-
+q
+squid:S109û"SAssign this magic number 13 to a well-named constant, and use the constant instead.(˜„¢8ç˜Œ-
+3squid:S00121"Missing curly brace.(èµş±8ûïÀğ-
+v
+squid:S109¹"SAssign this magic number 20 to a well-named constant, and use the constant instead.(ÙÁòûÿÿÿÿ8Î®”†-
+8squid:S00121"Missing curly brace.(“·Ë‹ûÿÿÿÿ8Ÿ–º™Š-
+v
+squid:S109­"SAssign this magic number 14 to a well-named constant, and use the constant instead.(ÅÖÖûÿÿÿÿ8ê¨†-
+p
+squid:S109°"RAssign this magic number 4 to a well-named constant, and use the constant instead.(èá —8—¨†-

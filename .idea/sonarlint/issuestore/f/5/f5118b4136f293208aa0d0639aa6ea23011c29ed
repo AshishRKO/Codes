@@ -1,0 +1,31 @@
+
+3squid:S00121"Missing curly brace.(‹ÜÑˆ8Ú˜Â˜-
+Osquid:IndentationCheck"!Make this line start at column 3.(Ë”Œşúÿÿÿÿ8Ú˜Â˜-
+t
+squid:S1093"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¡ŠªÇüÿÿÿÿ8Ú˜Â˜-
+v"squid:LeftCurlyBraceStartLineCheck0"AMove this left curly brace to the beginning of next line of code.(Çµí‘8Ú˜Â˜-
+3squid:S00121"Missing curly brace.(‹ÜÑˆ8Ú˜Â˜-
+`squid:S1941 "=Move the declaration of "lh" closer to the code that uses it.(äá×ëúÿÿÿÿ8Ú˜Â˜-
+V
+squid:S1068"9Replace this use of System.out or System.err by a logger.(Æü¦ˆ8Ú˜Â˜-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(±ìŠ–ùÿÿÿÿ8Ú˜Â˜-
+Osquid:IndentationCheck"!Make this line start at column 3.( ¢ Ûùÿÿÿÿ8Ú˜Â˜-
+o
+squid:S1096"RAssign this magic number 5 to a well-named constant, and use the constant instead.(­²·£8Ú˜Â˜-
+Jsquid:IndentationCheck"!Make this line start at column 5.(‹ÜÑˆ8Ú˜Â˜-
+Osquid:IndentationCheck "!Make this line start at column 5.(äá×ëúÿÿÿÿ8Ú˜Â˜-
+`squid:S1941!"=Move the declaration of "rh" closer to the code that uses it.(Ş×üÒşÿÿÿÿ8Ú˜Â˜-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(¨Õ¹Òÿÿÿÿÿ8Ú˜Â˜-
+t
+squid:S1094"RAssign this magic number 3 to a well-named constant, and use the constant instead.(Ó¯‚ úÿÿÿÿ8Ú˜Â˜-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(Ë”Œşúÿÿÿÿ8Ú˜Â˜-
+v"squid:LeftCurlyBraceStartLineCheck#"AMove this left curly brace to the beginning of next line of code.(ß¼Ëœ8Ú˜Â˜-
+Osquid:IndentationCheck2"!Make this line start at column 5.(ôà±‹ıÿÿÿÿ8Ú˜Â˜-
+Jsquid:IndentationCheck"!Make this line start at column 5.(‹ÜÑˆ8Ú˜Â˜-
+Msquid:S2039"*Explicitly declare the visibility for "h".( ¢ Ûùÿÿÿÿ8Ú˜Â˜-
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ë–¹8Ú˜Â˜-
+Usquid:S11351"2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ8Ú˜Â˜-
+{"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(âÑ €ûÿÿÿÿ8Ú˜Â˜-
+o
+squid:S1095"RAssign this magic number 4 to a well-named constant, and use the constant instead.(£³“º8Ú˜Â˜-
+Osquid:IndentationCheck$"!Make this line start at column 7.(·ªİùÿÿÿÿ8Ú˜Â˜-

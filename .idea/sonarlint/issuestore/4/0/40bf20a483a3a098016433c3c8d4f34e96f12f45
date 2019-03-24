@@ -1,53 +1,53 @@
 
-[
-squid:S106;"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8ÁÇñùö,
-ksquid:S00116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€ü¬8¹ƒğùö,
-w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¹ƒğùö,
+ksquid:S00116"LRename this field "V" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(æ€ü¬8¡á™ş,
 o
-squid:S109J"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¸¢è¹8ÁÇñùö,
-V
-squid:S1066"9Replace this use of System.out or System.err by a logger.(°Ÿßª8ÁÇñùö,
-wsquid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ÔºÑùÿÿÿÿ
+squid:S109J"RAssign this magic number 3 to a well-named constant, and use the constant instead.(¸¢è¹8¡á™ş,
+Osquid:IndentationCheck "!Make this line start at column 9.(ëñÚ±úÿÿÿÿ8¡á™ş,
+~squid:S00120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(˜ÔºÑùÿÿÿÿ8¡á™ş,
+Vsquid:S1197"8Move the array designator from the variable to the type.(êü‚§8¡á™ş,
+Jsquid:IndentationCheck6"!Make this line start at column 7.(°Ÿßª8¡á™ş,
 o
-squid:S109F"RAssign this magic number 4 to a well-named constant, and use the constant instead.(¼×’—8ÁÇñùö,
-[squid:S1197@"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ8ÁÇñùö,
-w squid:LeftCurlyBraceEndLineCheck'"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ÁÇñùö,
-usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Âÿÿÿÿÿ8¹ƒğùö,
-o"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(²ÅÊ„
-w squid:LeftCurlyBraceEndLineCheck3"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ÁÇñùö,
-Isquid:IndentationCheck"!Make this line start at column 3.(€¯Õw8¹ƒğùö,
-Osquid:IndentationCheckC"!Make this line start at column 5.(ª¸¥©úÿÿÿÿ8ÁÇñùö,
-Osquid:IndentationCheck4"!Make this line start at column 5.( ü„ÿÿÿÿÿ8ÁÇñùö,
-Jsquid:IndentationCheck6"!Make this line start at column 7.(°Ÿßª8ÁÇñùö,
-t
-squid:S109C"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ª¸¥©úÿÿÿÿ8ÁÇñùö,
-Osquid:IndentationCheck "!Make this line start at column 9.(ëñÚ±úÿÿÿÿ8¹ƒğùö,
-[
-squid:S1067"9Replace this use of System.out or System.err by a logger.(è£Ù¬ıÿÿÿÿ8ÁÇñùö,
-Jsquid:IndentationCheck9"!Make this line start at column 9.(áç±Û8ÁÇñùö,
+squid:S109K"RAssign this magic number 4 to a well-named constant, and use the constant instead.(‰…È”8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
 o
-squid:S109K"RAssign this magic number 3 to a well-named constant, and use the constant instead.(‰…È”8ÁÇñùö,
-V
-squid:S1069"9Replace this use of System.out or System.err by a logger.(áç±Û8ÁÇñùö,
-Ssquid:S2039"5Explicitly declare the visibility for "adjListArray".(êü‚§8¹ƒğùö,
-w squid:LeftCurlyBraceEndLineCheckA"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ÁÇñùö,
-v"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(øÛ8ÁÇñùö,
-o
-squid:S109K"RAssign this magic number 4 to a well-named constant, and use the constant instead.(‰…È”8ÁÇñùö,
-v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ü…ƒ–8¹ƒğùö,
-Vsquid:S1197"8Move the array designator from the variable to the type.(êü‚§8¹ƒğùö,
-o
-squid:S109J"RAssign this magic number 3 to a well-named constant, and use the constant instead.(¸¢è¹8ÁÇñùö,
-usquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¸¥©úÿÿÿÿ8ÁÇñùö,
-Jsquid:IndentationCheck)"!Make this line start at column 5.(âìÉ·8ÁÇñùö,
-Hsquid:S2039"*Explicitly declare the visibility for "V".(æ€ü¬8¹ƒğùö,
-w squid:LeftCurlyBraceEndLineCheck5"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8ÁÇñùö,
+squid:S109J"RAssign this magic number 2 to a well-named constant, and use the constant instead.(¸¢è¹8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheck5"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(–Âÿÿÿÿÿ8¡á™ş,
 n
-squid:S109G"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ÿ»ğ8ÁÇñùö,
-Jsquid:IndentationCheck"!Make this line start at column 5.(æ€ü¬8¹ƒğùö,
+squid:S109G"RAssign this magic number 2 to a well-named constant, and use the constant instead.(ÿ»ğ8¡á™ş,
+[
+squid:S106;"9Replace this use of System.out or System.err by a logger.(ƒÇãˆúÿÿÿÿ8¡á™ş,
+Isquid:IndentationCheck"!Make this line start at column 3.(€¯Õw8¡á™ş,
+Jsquid:IndentationCheck9"!Make this line start at column 9.(áç±Û8¡á™ş,
+[squid:S1197@"8Move the array designator from the variable to the type.(º ìıÿÿÿÿ8¡á™ş,
+usquid:S00117C"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ª¸¥©úÿÿÿÿ8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
+[
+squid:S1067"9Replace this use of System.out or System.err by a logger.(è£Ù¬ıÿÿÿÿ8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheck3"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
 o
-squid:S109H"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ˆÁ‡Ú8ÁÇñùö,
+squid:S109H"RAssign this magic number 3 to a well-named constant, and use the constant instead.(ˆÁ‡Ú8¡á™ş,
+v"squid:LeftCurlyBraceStartLineCheck8"AMove this left curly brace to the beginning of next line of code.(øÛ8¡á™ş,
+V
+squid:S1066"9Replace this use of System.out or System.err by a logger.(°Ÿßª8¡á™ş,
+Jsquid:IndentationCheck)"!Make this line start at column 5.(âìÉ·8¡á™ş,
+Osquid:IndentationCheck4"!Make this line start at column 5.( ü„ÿÿÿÿÿ8¡á™ş,
+Jsquid:IndentationCheck"!Make this line start at column 5.(æ€ü¬8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheckA"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
+Ssquid:S2039"5Explicitly declare the visibility for "adjListArray".(êü‚§8¡á™ş,
+w squid:LeftCurlyBraceEndLineCheck'"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¡á™ş,
+Osquid:IndentationCheck"!Make this line start at column 7.(Ÿ‰ëùşÿÿÿÿ8¡á™ş,
+Osquid:IndentationCheckC"!Make this line start at column 5.(ª¸¥©úÿÿÿÿ8¡á™ş,
+Hsquid:S2039"*Explicitly declare the visibility for "V".(æ€ü¬8¡á™ş,
 t
-squid:S109I"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ªÜºçüÿÿÿÿ8ÁÇñùö,
-w squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ8¹ƒğùö,
-Osquid:IndentationCheck"!Make this line start at column 7.(Ÿ‰ëùşÿÿÿÿ8¹ƒğùö,
+squid:S109I"RAssign this magic number 4 to a well-named constant, and use the constant instead.(ªÜºçüÿÿÿÿ8¡á™ş,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(²ÅÊ„8¡á™ş,
+o
+squid:S109F"RAssign this magic number 4 to a well-named constant, and use the constant instead.(¼×’—8¡á™ş,
+o
+squid:S109K"RAssign this magic number 3 to a well-named constant, and use the constant instead.(‰…È”8¡á™ş,
+t
+squid:S109C"RAssign this magic number 5 to a well-named constant, and use the constant instead.(ª¸¥©úÿÿÿÿ8¡á™ş,
+V
+squid:S1069"9Replace this use of System.out or System.err by a logger.(áç±Û8¡á™ş,
+v"squid:LeftCurlyBraceStartLineCheck"AMove this left curly brace to the beginning of next line of code.(ü…ƒ–8¡á™ş,

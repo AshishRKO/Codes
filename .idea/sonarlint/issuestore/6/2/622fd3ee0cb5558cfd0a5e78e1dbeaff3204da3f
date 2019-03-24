@@ -1,0 +1,34 @@
+
+Isquid:S2039"-Explicitly declare the visibility for "next".(«şº¤ùÿÿÿÿ
+Nsquid:S1135="2Complete the task associated to this TODO comment.(» æÿÿÿÿÿ
+Isquid:IndentationCheck*""Make this line start at column 11.(É¯¶Œúÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+Csquid:IndentationCheck"!Make this line start at column 3.(ÌŸ÷¯
+nsquid:S3776"RRefactor this method to reduce its Cognitive Complexity from 19 to the 15 allowed.(‚Ì¼úÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+1squid:S00121"Missing curly brace.(É¯¶Œúÿÿÿÿ
+o"squid:LeftCurlyBraceStartLineCheck<"AMove this left curly brace to the beginning of next line of code.(Çµí‘
+Jsquid:S2039".Explicitly declare the visibility for "right".(«şº¤ùÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck	"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+Isquid:IndentationCheck""Make this line start at column 11.(É¯¶Œúÿÿÿÿ
+1squid:S00121,"Missing curly brace.(„¶áìøÿÿÿÿ
+Isquid:S2039"-Explicitly declare the visibility for "left".(«şº¤ùÿÿÿÿ
+1squid:S00121*"Missing curly brace.(É¯¶Œúÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+Hsquid:IndentationCheck
+"!Make this line start at column 5.(ÅÙ¿úÿÿÿÿ
+i
+squid:S134"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(É¯¶Œúÿÿÿÿ
+Hsquid:IndentationCheck"!Make this line start at column 9.(Ñªöèıÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+Bsquid:IndentationCheck"!Make this line start at column 7.(–´Œ\
+p squid:LeftCurlyBraceEndLineCheck)"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+1squid:S00121!"Missing curly brace.(„¶áìøÿÿÿÿ
+Asquid:IndentationCheck"!Make this line start at column 5.(‚Îf
+?squid:S1659"#Declare "right" on a separate line.(«şº¤ùÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+i
+squid:S134*"NRefactor this code to not nest more than 3 if/for/while/switch/try statements.(É¯¶Œúÿÿÿÿ
+p squid:LeftCurlyBraceEndLineCheck"?Move this left curly brace to the end of previous line of code.(ÒÌâ–øÿÿÿÿ
+Csquid:S2039",Explicitly declare the visibility for "val".(ÌŸ÷¯
+>squid:S1659""Declare "next" on a separate line.(«şº¤ùÿÿÿÿ
